@@ -97,6 +97,40 @@ border: 1px solid var(--branding-color);
 .content{
     margin: 30px;
 }
+
+.logo{
+    max-height: 40px;
+}
+
+nav{
+    padding: 20px 0px;
+}
+
+nav ul{
+margin: 0px;
+padding: 0px;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left:15px;
+}
+
+nav a{
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+    color: #272142;
+}
+
+
+
+nav li.active a,nav a:hover{
+    color: var(--branding-color);
+}
+
+
 @media (max-width:960px) {
     .project-desc{
         padding: 0;

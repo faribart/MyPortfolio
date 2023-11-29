@@ -33,7 +33,7 @@ p{
 .hero{
     background-color:var(--secondary-color) ;
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 .hero h2{
     font-family:var(--detault-font-family) ;
@@ -74,7 +74,7 @@ border: 1px solid var(--branding-color);
 
 
 .content-container{
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 .content h1{
     font-size: 64px;
